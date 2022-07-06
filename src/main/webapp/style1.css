@@ -1,0 +1,205 @@
+body {
+    background-color: #6DC8F9;
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient(315deg, #6DC8F9, #1461DB);
+}
+
+.shape {
+    position: absolute;
+    right: 0;
+    clip-path: circle(33.0% at 76% 9%);
+    width:70%;
+    height:70%;
+    background:#87ceeb;
+}
+
+.shape2 {
+    margin: auto;
+    margin-right: 20em;
+    clip-path: circle(25.2% at 38% 8%);
+    width:65%;
+    height:70%;
+    background:#00bfff;
+}
+
+.loginbox {
+    position: absolute;
+    margin: auto;
+    border: 5px solid black;
+    height: 20%;
+    width: 40%;
+    background-color: red;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.login-box {
+    position: absolute;
+    margin: auto;
+    height: 20%;
+    width: 40%;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.forms {
+    margin-top: 1em;
+}
+
+.login {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fffafa;
+}
+
+#login-icon {
+    position: absolute;
+    width: 0.5em;
+    top: 6.6em;
+    left: 0.2em;
+}
+
+#password-icon {
+    position: absolute;
+    width: 0.5em;
+    top: 9.95em;
+    left: 0.2em;
+}
+
+#username, #password {
+    width: 90%;
+    border: 0.15em solid black;
+    background-repeat: no-repeat;
+    border-radius: 0.25em;
+    background-position: 0.7em 0.7em;
+    padding-left: 1.2em;
+    outline: none;
+}
+
+#password {
+    margin-bottom: 2em;
+}
+
+.sign-in {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    color: #fffafa;
+}
+
+#submit-button {
+    display: flex;
+    color: #fffafa;
+    background-color:#6DC8F9;
+    border: none;
+    border-radius: 2em;
+    padding: 1em 2em;
+    margin: auto;
+    top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#user, #pass {
+    color: #fffafa;
+}
+
+.employee-image {
+    display: none;
+}
+
+@media screen and (min-width: 840px) {
+
+    .screen {
+        display: flex;
+    }
+
+    /* .login-box {
+        background-color: #00bfff;;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    } */
+
+    .shape {
+        position: absolute;
+        right: 0;
+        clip-path: polygon(38% 0, 100% 45%, 100% 0);
+        width:50%;
+        height:50%;
+        background:#87ceeb;
+    }
+
+    .shape2 {
+        display: none;
+    }
+
+    .employee-image {
+        height: 80%;
+        width: 80%;
+        mix-blend-mode: multiply;
+        display: inline;
+    }
+
+    .employee-image-div {
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        top: 20em;
+    }
+
+    #username, #password {
+        width: 40%;
+        margin-left: 1.5em;
+        transition: width 0.4s ease-in-out;
+    }
+
+    #username:focus {
+        width: 70%;
+    }
+
+    #password:focus {
+        width: 70%;
+    }
+
+    .login {
+        font-size: 2em;
+        position: relative;
+    }
+
+    .sign-in {
+        font-size: 1.2em;
+        position: relative;
+        left: 1.2em;
+    }
+
+    #user {
+        font-size: 1.4em;
+        position: relative;
+        left: 1em;
+    }
+
+    #pass {
+        font-size: 1.4em;
+        position: relative;
+        left: 1em;
+    }
+
+    #login-icon {
+        position: absolute;
+        top: 8.4em;
+        left: 1.7em;
+
+    }
+
+    #password-icon {
+        top: 12.4em;
+        left: 1.7em;
+    }
+  }

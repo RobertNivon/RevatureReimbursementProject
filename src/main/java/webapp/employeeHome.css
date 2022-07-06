@@ -1,0 +1,80 @@
+#toggle-menu {
+    padding-right: 200px
+}
+
+#navbarDropdownMenuLink {
+    padding-right: 50px;
+}
+
+#sidebar-container {
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    background-color:#343a40;
+}
+
+#sidebar-toggle {
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+#name {
+    color:azure;
+    padding-bottom:15px;
+    padding-left: 5px;
+}
+
+.sidebar-items {
+    padding-left: 5px;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.sidebar-items a {
+    color:azure;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.sidebar-items li {
+    margin-bottom: 1.2em;
+}
+
+/* h1 {
+    padding-left:300px;
+} */
+
+#website-content {
+    margin-left:20em;
+}
+
+#my-card {
+    margin-left:20em;
+}
+
+/* .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} */
+
+.card {
+    flex-direction: row;
+}
+
+.card img {
+    width: 20%;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 840px) {
+
+    .card img {
+        visibility: visible;
+    }
+
+}
